@@ -7,3 +7,11 @@ Conditions:
 - you have at least 8GB memory
 - you have a molecular visualization program
 
+If the program spits out a lot of erros then the reason is written in the first error. 
+
+Common reasons are:
+- residue ' ' not found in residue topology database
+- missing atom
+- out of memory killer
+
+Unfortunately, there is no “solution for everything” but after an error there is always a link from gromacs documentation. There you can find solutions for your problem.
